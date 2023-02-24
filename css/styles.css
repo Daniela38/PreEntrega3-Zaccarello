@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 247);
+}
+.container h3{
+    text-align: right;
+}
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+thead td{
+    text-align: center;
+    padding: 10px;
+}
+tbody tr{
+    text-align: center;
+}
+tbody td{
+    padding: 10px;
+}
+.borrar_elemento{
+    background-color: rgb(207, 54, 54);
+    border-radius: 30px;
+}
+#carrito{
+    display: flex;
+    justify-content: flex-end;
+}
+.col{
+    text-align: center;
+}
+#carro{
+    display: none;
+}
+.botonCompra{
+    background-color: rgb(94, 83, 158);
+    border-radius: 30px;
+    box-shadow: 0.5px 0.5px 3px;
+}
